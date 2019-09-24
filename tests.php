@@ -15,10 +15,10 @@
 <nav>
     <div class="nav-wrapper">
         <a href="https://sfedu.ru/" class="brand-logo"><img src="logo.png" width="65vw" height="65vw"></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <ul id="nav-mobile" class="right hide-on-med-and-down valign-wrapper">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.php">About</a></li>
-        </ul>
+        </ul>		<div class="pdf-header right hide-on-med-and-up valign-wrapper">			<ul id="nav-mobile" class="valign-wrapper right">				<li><a class="pdf-header-link" href="index.html" style="font-size: 2rem; font-family: Roboto Black;">PDF</a></li>			</ul>		</div>
     </div>
 </nav>
 
