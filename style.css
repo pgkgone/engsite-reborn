@@ -1,0 +1,226 @@
+html{
+	scroll-behavior:smooth;
+}
+body{
+    margin: 0px;
+	background-color: #711840;
+}
+.mainblock{
+    background: linear-gradient(to left, #3d4d89 0%,#4d67ac 30%,#4d67ac 70%,#3d4d89 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
+    width: 100%;
+    height: 80%;
+	min-height: 110vh;
+}
+.animationblock{
+    width: 100%;
+    position: absolute;
+
+}
+.topblock{
+    display: flex;
+    padding-top: 5vh;
+    width: 100%;
+    justify-content: right;
+}
+.logo{
+    display: inline-block;
+
+    margin-left: 1.5VW;
+}
+.menu{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-left: 31VW;
+}
+.menu a{
+    font-family: "Roboto Black";
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 0.5VW;
+    padding: 5px 10px 5px 10px;
+}
+.menu a:hover{
+    padding: 0px 5px 0px 5px;
+    font-family: "Roboto Black";
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 0.5VW;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    border-color: #c5a2de;
+}
+.content {
+    position: relative;
+    width: 100%;
+    background-color: #711840;
+}
+.centerblock {
+    width: 86%;
+    margin-left: 2%;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 5%;
+	padding-left: 10%;
+}
+.centerblock .navtitle{
+    font-family: "Roboto Black";
+    font-size: 30px;
+    text-decoration: underline;
+}
+.centerblock .themenumber1{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FF9671;
+}
+.centerblock .themenumber2{
+	    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FF6F91;
+}
+.centerblock .themenumber3{
+	    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #EAE959;
+}
+.centerblock .themenumber4{
+	    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #D65DB1;
+}
+.centerblock .themenumber5{
+	    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FFC75F;
+}	
+.centerblock .partnumber1{
+    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FF9671;
+}
+.centerblock .partnumber2{
+	    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FF6F91;
+}
+.centerblock .partnumber3{
+	    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #EAE959;
+}
+.centerblock .partnumber4{
+	    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #D65DB1;
+}
+.centerblock .partnumber5{
+	    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FFC75F;
+}	
+.centerblock ul {
+	list-style-type: none;
+	width: 80%;
+	font-family: "Roboto Black";
+	padding-inline-start: 0px;
+
+}
+.centerblock li {
+	list-style-type: none;
+	font-family: "Roboto Black";
+	font-size: 30px;
+	background-color: EAEAEA;
+	line-height: 30px;
+}
+.centerblock .parttitle a {
+	text-decoration: underline;
+	color: black;
+}
+.centerblock .themetitleblock{
+	padding-top: 1.1%;
+    padding-bottom: 1.1%;
+}
+.centerblock .themetitle{
+	padding-left: 2%;
+}
+.centerblock .parttitle  {
+    margin-left: 2%;
+}
+.centerblock .part  {
+	padding-top: 1%;
+    padding-bottom: 1%;
+	margin-top: 0.5%;
+    margin-left: 10%;
+}
+a{
+    text-decoration: none;
+}
+/* universe animation
+*/
+@media screen and (max-width: 1300px) {
+    .saturn{
+        visibility: hidden;
+    }
+    .themedesc{
+        padding-top: 15vh !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    div {width: 1500px;}
+}
+.atom{
+	width: 90vw;
+	margin-top: -2%;
+}
+.header {
+	font-family: "Roboto Black";
+	margin: 0 0 0 0;
+    color: white;
+}
+#unit1{
+	cursor: pointer;
+}
+#unit2{
+	cursor: pointer;
+}
+#unit3{
+	cursor: pointer;
+}
+#unit4{
+	cursor: pointer;
+}
+#unit5{
+	cursor: pointer;
+}

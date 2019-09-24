@@ -1,0 +1,193 @@
+html{
+	scroll-behavior:smooth;
+}
+body{
+    margin: 0px;
+	background-color: D8569C;
+}
+.mainblock{
+    background: linear-gradient(to left, #3d4d89 0%,#4d67ac 30%,#4d67ac 70%,#3d4d89 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
+    width: 100%;
+}
+.animationblock{
+    width: 100%;
+    position: relative;
+
+}
+.topblock{
+    display: flex;
+    padding-top: 2vh;
+    width: 100%;
+    justify-content: center;
+}
+.logo{
+    display: inline-block;
+}
+.menu{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.menu a{
+    font-family: "Roboto Black";
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 0.5VW;
+    padding: 5px 10px 5px 10px;
+}
+.menu a:hover{
+    padding: 0px 5px 0px 5px;
+    font-family: "Roboto Black";
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 0.5VW;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    border-color: #c5a2de;
+}
+.content {
+    position: relative;
+	width: 70%;
+    margin-left: 15%;
+	background-color: BA367F;
+}
+.centerblock {
+    width: 96%;
+    margin-left: 2%;
+    background-color: white;
+    padding-top: 5vh;
+	padding-bottom: 5%;
+}
+.centerblock .navtitle{
+    font-family: "Roboto Black";
+    font-size: 60px;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+.centerblock .themenumber1{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FF9671;
+}
+.centerblock .themenumber2{
+	    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FF6F91;
+}
+.centerblock .themenumber3{
+	    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #EAE959;
+}
+.centerblock .themenumber4{
+	    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #D65DB1;
+}
+.centerblock .themenumber5{
+	    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FFC75F;
+}	
+.centerblock .partnumber1{
+    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FF9671;
+}
+.centerblock .partnumber2{
+	    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FF6F91;
+}
+.centerblock .partnumber3{
+	    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #EAE959;
+}
+.centerblock .partnumber4{
+	    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #D65DB1;
+}
+.centerblock .partnumber5{
+	    padding-left: 3.25%;
+    padding-right: 3.25%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+	color: white;
+    background-color: #FFC75F;
+}	
+.centerblock ul {
+	list-style-type: none;
+	width: 60%;
+	margin-left: 10%;
+	font-family: "Roboto Black";
+	font-size: 50px;
+	padding-inline-start: 0px;
+
+}
+.centerblock li {
+	list-style-type: none;
+	font-family: "Roboto Black";
+	font-size: 40px;
+	background-color: EAEAEA;
+}
+.centerblock .themetitleblock{
+	padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.centerblock .themetitle{
+	padding-left: 3%;
+}
+.centerblock .parttitle  {
+    margin-left: 3%;
+}
+.centerblock .part  {
+	padding-top: 1.4%;
+    padding-bottom: 1.4%;
+	margin-top: 0.5%;
+    margin-left: 10%;
+}
+
+/* universe animation
+*/
+@media screen and (max-width: 1300px) {
+    .saturn{
+        visibility: hidden;
+    }
+    .themedesc{
+        padding-top: 15vh !important;
+    }
+}
+@media screen and (max-width: 600px) {
+    div {width: 1500px;}
+}
