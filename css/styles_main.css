@@ -254,10 +254,10 @@ nav {
     font-size: small;
 }
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
-	color: #ee6e73;
+	color: #006699;
 	margin-right: 34px;
 }
 .card .card-action a:hover {
 	color: #ee6e73;
 	margin-right: 34px;
-}
+}.row a{	font-weight: 600;

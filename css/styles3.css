@@ -201,7 +201,7 @@ div[id^="inputDiv"] input{
     right: 5%;
     bottom: 3%;
     z-index: 1000;
-    background-color: #ee6e73;
+    background-color: #006699;
     border-radius: 1000px;
     font-size: 20px;
     font-family: Roboto Black;
@@ -210,7 +210,7 @@ div[id^="inputDiv"] input{
     color: white;
 }
 .pdf_link_a:hover{
-    background-color: #26a69a;
+    background-color: #02496d;
     color: white;
     text-decoration: none;
 }
