@@ -18,7 +18,15 @@
         }
         return(false);
     }
-    var link = "../pdf/book.pdf#page=" + getQueryVariable("page");
+    function getPdf(variable)
+    {
+        if(variable==0) return "PDF - I.pdf";
+        if(variable==1) return "PDF - II.pdf";
+        if(variable==2) return "PDF - III.pdf";
+        if(variable==3) return "PDF- IV.pdf";
+        if(variable==4) return "PDF -V.pdf";
+    }
+    var link = "../pdf/"+getPdf(getQueryVariable("title"));
 
     PDFObject.embed(link, "#example1");
 </script>
