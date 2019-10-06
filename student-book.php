@@ -6,7 +6,7 @@
 
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
 
-    <link rel="stylesheet" href="css/styles3.css" >
+    <link rel="stylesheet" href="css/styles_new.css" >
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script>
         $( document ).ready(function() {
@@ -19,10 +19,13 @@
 
 
 <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
+    <li><a href="/about.php">This online resource</a></li>
     <li class="divider"></li>
-    <li><a href="#!">three</a></li>
+    <li><a href="/student-book.php">Student's book for classroom use</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Materials writer</a></li>
+    <li class="divider"></li>
+    <li><a href="#!">Site developers</a></li>
 </ul>
 <nav>
 
@@ -73,6 +76,10 @@
             <div class="col s4"></div>
             <div class="col s2"></div>
         </div>
+        <div class="holder" align="center">
+            <img src="Student's%20book-001.png" width="360px" height="490px">
+            <img src="Student's%20book-004.png"width="360px" height="490px">
+        </div>
         <div class="row">
             <div class="col s9">
         <p>Кнопка/иконка PDF на каждой странице позволяет открыть и/или скачать <b>соответствующие разделы</b> из учебника “Learn the English of Physics”.  </p>
@@ -81,7 +88,7 @@
             <div class="col s1"></div>
             <div class="col s2" style="height:10vh">
                 <div class="valign-wrapper">
-                <img src="pdf.png" alt="Открыть">
+                    <a href="/pdf/1-6.pdf"><img src="pdf.png" alt="Открыть"><a>
                     </div>
             </div>
             </div>
@@ -99,7 +106,6 @@
 
                 <h5 class="white-text"></h5>
 
-                <p class="grey-text text-lighten-4">????.</p>
 
             </div>
 
@@ -128,7 +134,7 @@
     </div>
 
 </footer>
-
+<script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 
 </html>
